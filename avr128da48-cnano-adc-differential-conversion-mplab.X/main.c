@@ -3,7 +3,7 @@
 
     \brief  ADC Differential Conversion
 
-    (c) 2019 Microchip Technology Inc. and its subsidiaries.
+    (c) 2023 Microchip Technology Inc. and its subsidiaries.
 
     Subject to your compliance with these terms, you may use Microchip software and any
     derivatives exclusively with Microchip products. It is your responsibility to comply with third-party
@@ -50,8 +50,8 @@ void SYSTEM_init(void);
 
 void CLKCTRL_init(void)
 {
-    /* FREQSEL 4M */
-    ccp_write_io((void*)&(CLKCTRL.OSCHFCTRLA), (CLKCTRL.OSCHFCTRLA | CLKCTRL_FREQSEL_4M_gc));
+    /* FRQSEL 4M */
+    ccp_write_io((void*)&(CLKCTRL.OSCHFCTRLA), (CLKCTRL.OSCHFCTRLA | CLKCTRL_FRQSEL_4M_gc));
 }
 
 void PORT_init(void)
