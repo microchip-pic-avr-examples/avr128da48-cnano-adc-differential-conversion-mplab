@@ -28,7 +28,7 @@ This repository contains an application in which the ADC is configured to conver
 
 ## Setup
 
-The AVR128DA48 Curiosity Nano Development Board is used as the test platform. To integrate the POT Click boards, the Curiosity Nano Base for Click boards is used.
+The AVR128DA48 Curiosity Nano Development board is used as the test platform. To integrate the POT Click boards, the Curiosity Nano Base Click boards is used to integrate the POT Click boards.
 
 <br><img src="images/AVR128DA48_CNANO_instructions.png" width="500">
 
@@ -36,66 +36,66 @@ The AVR128DA48 Curiosity Nano Development Board is used as the test platform. To
 
 |Pin           | Configuration      |
 | :----------: | :----------------: |
-|PD3 (AIN3)    | Analog Input       |
-|PD4 (AIN4)    | Analog Input       |
-|PC0 (TX)      | Digital Output     |
+|PD3 (AIN3)    | Analog input       |
+|PD4 (AIN4)    | Analog input       |
+|PC0 (TX)      | Digital output     |
 
-## Demo:
+## Demo
 
   - Open the Data Visualizer
   <br><img src="images/0_3.png" width="600">
-  - From the Curiosity Nano COMn port, open the drop down list:
+  - Open the drop-down list from the Curiosity Nano COMn port
   <br><img src="images/1.png">
 
-  **Note:** Make sure the used baud rate is 115200.
+  **Note:** Set the baud rate to 115200.
 
-  - From the drop down list, select New variable streamer...:
+  - From the drop-down list, select New variable streamer...:
   <br><img src="images/2.png">
-  - Configure the Variable Streamer Name and add the desired variable, then click Next:
+  - Configure the Variable Streamer Name and add the desired variable, then click **Next**:
   <br><img src="images/3.png" width="600">
-  - Select all the variables to plot, select New axis per data type, and click Finish:
+  - Select all the variables to plot, select New axis per data type, and click **Finish**:
   <br><img src="images/4.png" width="600">
 
 Result:
-Rotating the Potentiometers on the POT click boards (after starting the application), the ADC result will be plotted on the graph:
+The ADC result will be plotted on the graph by rotating the potentiometers on the POT click boards (after starting the application), as shown in the image below.
 <br><img src="images/5.png" alt="Demo" width="800"/>
 
 ## Summary 
 
-This application showcases the differential-conversion feature of the AVR-DA ADC. 
+This application showcases the differential conversion feature of the AVR® DA ADC. 
 
 ## How to Program the Curiosity Nano Board
 
-This chapter shows how to use the MPLAB® X IDE to program an AVR® device with an Example_Project.X. This can be applied to any other projects.
+This chapter shows how to use the MPLAB X IDE to program an AVR device with an `Example_Project.X`. This can be applied to any other projects.
 
 - Connect the board to the PC
 
-- Open the Example_Project.X project in MPLAB® X IDE
+- Open the `Example_Project.X` project in MPLAB® X IDE
 
-- Set the Example_Project.X project as main project
+- Set the `Example_Project.X` project as main project
 
-  - Right click the project in the **Projects** tab and click **Set as Main Project**
+  - Right click the project in the **Projects** tab and click Set as Main Project
     <br><img src="images/Program_Set_as_Main_Project.PNG" width="400">
 
-- Clean and build the Example_Project.X project
+- Clean and build the `Example_Project.X` project
 
-  - Right click the **Example_Project.X** project and select **Clean and Build**
+  - Right click the `Example_Project.X` project and select Clean and Build
     <br><img src="images/Program_Clean_and_Build.PNG" width="400">
 
-- Select **AVRxxxxx Curiosity Nano** in the Connected Hardware Tool section of the project settings:
+- Select AVRxxxxx Curiosity Nano in the Connected Hardware Tool section of the project settings:
 
   - Right click the project and click **Properties**
   - Click the arrow under the Connected Hardware Tool
-  - Select the **AVRxxxxx Curiosity Nano** (click the **SN**), click **Apply** and then **OK**:
+  - Select the AVRxxxxx Curiosity Nano (click the **SN**), click **Apply** and then **OK**:
     <br><img src="images/Program_Tool_Selection.PNG" width="600">
 
 - Program the project to the board
-  - Right click the project and then **Make and Program Device**
+  - Right click the project and then Make and Program Device
     <br><img src="images/Program_Make_and_Program_Device.PNG" width="600">
 
 <br>
 
-[Back to Top](#avr128da48-adc-differential-conversion)<br>
+[Back to Top](#analog-to-digital-converter-adc---differential-conversion-using-avr128da48-microcontroller)<br>
 [Back to Related Documentation](#related-documentation)<br>
 [Back to Software Used](#software-used)<br>
 [Back to Hardware Used](#hardware-used)<br>
