@@ -33,12 +33,6 @@
             }
         },
         "author": "Microchip",
-        "subcategories": [
-            [
-                "Peripherals",
-                "ADC"
-            ]
-        ],
         "peripherals": [
             "ADC"
         ],
