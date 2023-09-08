@@ -2,7 +2,7 @@
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.1.0",
+        "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-adc-differential-conversion-mplab",
         "version": "1.0.2",
         "displayName": "Analog-to-Digital Converter (ADC) - Differential Conversion Using AVR128DA48 Microcontroller",
